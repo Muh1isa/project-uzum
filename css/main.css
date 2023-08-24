@@ -141,6 +141,16 @@
   gap: 20px;
 }
 
+.section6 {
+  height: 750px;
+}
+.section6__wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 560px;
+  gap: 20px;
+}
+
 .footer {
   margin: 150px 0 0;
 }
@@ -211,7 +221,6 @@ a {
 
 .box {
   position: relative;
-  border: 1px solid;
   cursor: pointer;
 }
 .box .fa-regular {
