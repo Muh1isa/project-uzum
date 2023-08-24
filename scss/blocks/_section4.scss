@@ -1,0 +1,9 @@
+.section4 {
+    height: 1400px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: 560px;
+        gap: 20px;
+    }
+}

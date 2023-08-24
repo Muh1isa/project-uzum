@@ -1,0 +1,10 @@
+.section1 {
+    height: 1900px;
+    // padding: 30px 50px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: 560px 560px 560px 560px;
+        gap: 20px;
+    }
+}

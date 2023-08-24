@@ -1,0 +1,9 @@
+.section5 {
+    height: 750px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: 560px;
+        gap: 20px;
+    }
+}
